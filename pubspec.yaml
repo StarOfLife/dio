@@ -8,7 +8,9 @@ environment:
   sdk: '>=1.9.0 <3.0.0'
 
 dependencies:
-  cookie_jar: ^0.0.4
+  cookie_jar: 
+    git:
+      url: "https://github.com/StarOfLife/cookie_jar.git"
 
 dev_dependencies:
   test: "^0.12.0"
